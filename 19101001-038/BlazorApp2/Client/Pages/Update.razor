@@ -1,0 +1,87 @@
+﻿@page "/update/{Id:int}"
+
+@using BlazorApp2.Shared;
+@using static System.Net.WebRequestMethods;
+@using System.Net.Http.Json;
+@inject HttpClient Http
+
+<html>
+<head>
+    <title>Update</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="~/css/contact.css" />
+</head>
+<body>
+    @message
+
+    <EditForm Model="@contact" OnValidSubmit="@HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        @*<div>
+            <label for="id" class="">Id</label>
+            <InputNumber class="form-control" @bind-Value="contact.Id" />
+        </div>*@
+
+        <div>
+            <label for="Name" class="">Name</label>
+            <InputText class="form-control" @bind-Value="contact.name" />
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <InputText class="form-control" @bind-Value="contact.email" />
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <InputText class="form-control" @bind-Value="contact.subject" />
+
+        </div>
+        <div>
+            <label for="Name">Message</label>
+            <InputTextArea class="form-control" @bind-Value="contact.message" />
+        </div>
+        <br>
+        <button class="ps-5 pe-5 rounded-2 pt-1 pb-1 border" style="background-color: green; color: white;" type="submit">Submit</button>
+    </EditForm>
+
+
+</body>
+</html>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    //public int Id = 6;
+    public string message = "";
+
+    private WeatherForecast contact = new WeatherForecast();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch the existing contact data from the server
+        var response = await Http.GetAsync($"/WeatherForecast/{Id}");
+        if (response.IsSuccessStatusCode)
+        {
+            contact = await response.Content.ReadFromJsonAsync<WeatherForecast>();
+        }
+        else
+        {
+            message = "Record not found";
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        var response = await Http.PutAsJsonAsync($"WeatherForecast/{Id}", contact);
+        if (response.IsSuccessStatusCode)
+        {
+            message = "Successfully Update";
+        }
+        else
+        {
+            message = "Not Updated";
+        }
+    }
+}

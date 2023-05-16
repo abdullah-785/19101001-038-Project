@@ -1,0 +1,100 @@
+﻿@page "/contactus"
+@using BlazorApp2.Shared;
+@using static System.Net.WebRequestMethods;
+@using System.Net.Http.Json;
+@inject HttpClient Http
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="~/css/contact.css" />
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="">
+        <img class="w-100" src="../images/contactusbanner.png" alt="">
+    </div>
+    <br><br><br><br>
+    <div class="row justify-content-center">
+        <h2 class="text-center">Contact US</h2>
+        <div class="line"></div>
+    </div>
+    <div class="container">
+        
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+                @*COMPONENT CALLING
+                <ContactComponent ContactUsForm="@contactUsForm" />*@
+                @message
+
+                <EditForm Model="@contactUsForm" OnValidSubmit="@HandleValidSubmit">
+                    <DataAnnotationsValidator/>
+                    <ValidationSummary/>
+                    <div>
+                        <label for="Name" class="">Name</label>
+                        <InputText class="form-control" @bind-Value= "contactUsForm.name" />
+
+                    </div>
+                    <div>
+                        <label for="Email">Email</label>
+                        <InputText class="form-control" @bind-Value="contactUsForm.email" />
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <InputText class="form-control" @bind-Value="contactUsForm.subject" />
+
+                    </div>
+                    <div>
+                        <label for="Name">Message</label>
+                        <InputTextArea class="form-control" @bind-Value= "contactUsForm.message" />
+                    </div>
+                    <br>
+                    <button class="ps-5 pe-5 rounded-2 pt-1 pb-1 border" style="background-color: green; color: white;" type="submit">Submit</button>
+                </EditForm>
+            </div>
+            
+        </div>
+    </div>
+    
+<br><br><br>
+    
+</body>
+
+</html>
+
+@code {
+    WeatherForecast contactUsForm = new WeatherForecast();
+
+    //void HandleOnSubmit()
+    //{
+    //    contactUsForm.Id++;
+    //    //contactUsForm = await Http.PostFromJsonAsync<WeatherForecast[]>("WeatherForecast/saveContact(contactUsForm)");
+
+    //}
+    public string message;
+    private async Task HandleValidSubmit()
+    {
+        var response = await Http.PostAsJsonAsync("WeatherForecast/saveContact", contactUsForm);
+        if (response.IsSuccessStatusCode)
+        {
+            message = "Successfully";
+        }
+        else
+        {
+            message = "Data is not saved";
+        }
+    }
+}

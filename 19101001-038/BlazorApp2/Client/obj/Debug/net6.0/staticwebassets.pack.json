@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\NW1Ty0ZU.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp2.Client.styles.css",
+      "PackagePath": "staticwebassets\\BlazorApp2.Client.styles.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\aboutus.css",
+      "PackagePath": "staticwebassets\\css\\aboutus.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin.html",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin.html"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\RelatedObjectLookups.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\RelatedObjectLookups.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\actions.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\actions.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\base.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\base.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\change_form.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\change_form.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\content.min(1).css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\content.min(1).css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\content.min.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\content.min.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\core.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\core.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\dark_mode.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\dark_mode.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\forms.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\forms.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\init_tinymce.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\init_tinymce.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\jquery.init.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\jquery.init.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\jquery.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\jquery.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\nav_sidebar.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\nav_sidebar.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\nav_sidebar.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\nav_sidebar.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\prepopulate.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\prepopulate.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\prepopulate_init.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\prepopulate_init.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\responsive.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\responsive.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\saved_resource",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\saved_resource(1).html",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\saved_resource(1).html"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\saved_resource.html",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\saved_resource.html"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\skin.min.css",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\skin.min.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\tinymce.min.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\tinymce.min.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\urlify.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\urlify.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Add home page controler _ Django site admin_files\\xregexp.js.download",
+      "PackagePath": "staticwebassets\\images\\Add home page controler _ Django site admin_files\\xregexp.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Menu\\Store.png",
+      "PackagePath": "staticwebassets\\images\\Menu\\Store.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Menu\\about us.png",
+      "PackagePath": "staticwebassets\\images\\Menu\\about us.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Menu\\home.png",
+      "PackagePath": "staticwebassets\\images\\Menu\\home.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Menu\\login.png",
+      "PackagePath": "staticwebassets\\images\\Menu\\login.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\Menu\\register.png",
+      "PackagePath": "staticwebassets\\images\\Menu\\register.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\aboutbanner.jpg",
+      "PackagePath": "staticwebassets\\images\\aboutbanner.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\backLogo.png",
+      "PackagePath": "staticwebassets\\images\\backLogo.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\1.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\2.png",
+      "PackagePath": "staticwebassets\\images\\banners\\2.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\3.gif",
+      "PackagePath": "staticwebassets\\images\\banners\\3.gif"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection.html",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection.html"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\3.gif",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\3.gif"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\Chart.min.js.download",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\Chart.min.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\Store.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\Store.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\about us.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\about us.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\barChar.js.download",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\barChar.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\bootstrap.bundle.min.js.download",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\bootstrap.bundle.min.js.download"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\bootstrap.css",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\home.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\home.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\login.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\login.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\logo.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\logo.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\register.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\register.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\saved_resource.html",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\saved_resource.html"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\splash.png",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\splash.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\Vehicle Detection_files\\style.css",
+      "PackagePath": "staticwebassets\\images\\banners\\Vehicle Detection_files\\style.css"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\banners\\splash.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\splash.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\barcharpic.png",
+      "PackagePath": "staticwebassets\\images\\barcharpic.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\contactusbanner.png",
+      "PackagePath": "staticwebassets\\images\\contactusbanner.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\contactusform.png",
+      "PackagePath": "staticwebassets\\images\\contactusform.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\contactusform2.png",
+      "PackagePath": "staticwebassets\\images\\contactusform2.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\femaleprofilepic.jpg",
+      "PackagePath": "staticwebassets\\images\\femaleprofilepic.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\femaleprofilepic2.jpg",
+      "PackagePath": "staticwebassets\\images\\femaleprofilepic2.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\homepagebanner.jpg",
+      "PackagePath": "staticwebassets\\images\\homepagebanner.jpg"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\social media\\linked in.png",
+      "PackagePath": "staticwebassets\\images\\social media\\linked in.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\social media\\mail.png",
+      "PackagePath": "staticwebassets\\images\\social media\\mail.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\social media\\phone.png",
+      "PackagePath": "staticwebassets\\images\\social media\\phone.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\social media\\tiwitter.png",
+      "PackagePath": "staticwebassets\\images\\social media\\tiwitter.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\social media\\website.png",
+      "PackagePath": "staticwebassets\\images\\social media\\website.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\images\\social media\\whatsapp.png",
+      "PackagePath": "staticwebassets\\images\\social media\\whatsapp.png"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\js\\barChar.js",
+      "PackagePath": "staticwebassets\\js\\barChar.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\js\\c-eyeScript.js",
+      "PackagePath": "staticwebassets\\js\\c-eyeScript.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\js\\eyeScript.js",
+      "PackagePath": "staticwebassets\\js\\eyeScript.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\js\\productDetailsPage.js",
+      "PackagePath": "staticwebassets\\js\\productDetailsPage.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\js\\productSlider.js",
+      "PackagePath": "staticwebassets\\js\\productSlider.js"
+    },
+    {
+      "Id": "F:\\University 8th semester\\Web Engeering\\Assignments\\Assignment 2.1\\BlazorApp2\\BlazorApp2\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorApp2.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BlazorApp2.Client.props",
+      "PackagePath": "build\\BlazorApp2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp2.Client.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp2.Client.props",
+      "PackagePath": "buildTransitive\\BlazorApp2.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

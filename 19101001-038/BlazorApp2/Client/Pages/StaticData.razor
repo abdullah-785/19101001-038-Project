@@ -1,0 +1,49 @@
+﻿@page "/staticdata"
+@using BlazorApp2.Shared
+@inject HttpClient Http
+
+<PageTitle>Static Data</PageTitle>
+
+<h1>dATA LIST</h1>
+
+
+
+@if (contact == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>IId</th>
+                <th>NName</th>
+                <th>EEmail</th>
+                <th>SSubject</th>
+                <th>MMessage</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var con in contact)
+            {
+                <tr>
+                    <td>Id</td>
+                    <td>name</td>
+                    <td>Email</td>
+                    <td>Subject</td>
+                    <td>Message</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private ContactUs[]? contact;
+
+    protected override async Task OnInitializedAsync()
+    {
+        contact = await Http.GetFromJsonAsync<ContactUs[]>("api/ContactApiController/GetContact");
+    }
+}

@@ -1,0 +1,12 @@
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\bin\Debug\net6.0\BlazorApp2.Shared.deps.json
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\bin\Debug\net6.0\BlazorApp2.Shared.dll
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\bin\Debug\net6.0\BlazorApp2.Shared.pdb
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.csproj.AssemblyReference.cache
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.AssemblyInfoInputs.cache
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.AssemblyInfo.cs
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.csproj.CoreCompileInputs.cache
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.dll
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\refint\BlazorApp2.Shared.dll
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\BlazorApp2.Shared.pdb
+F:\University 8th semester\Web Engeering\Assignments\Assignment 2.1\BlazorApp2\BlazorApp2\Shared\obj\Debug\net6.0\ref\BlazorApp2.Shared.dll

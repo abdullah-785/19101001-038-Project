@@ -1,0 +1,206 @@
+﻿@page "/"
+
+@using BlazorApp2.Shared;
+@using System.Net.Http.Json;
+@inject HttpClient Http
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vehicle Detection</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="/css/style.css">
+        
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      @* <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>*@
+    </head>
+
+    <body onload="">
+        
+        <div class="row border">
+             <img class="img-fluid" src="./images/banners/splash.jpg" alt="">
+        </div>
+
+        <br><br><br><br>
+
+        <div class="row justify-content-center">
+            <h2 class="text-center mb-lg-2 mb-1">Introduction</h2>
+            <div style="border: 1px solid green; height: 0.2rem; width: 7rem; background-color: green;" ></div>
+
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-7 col-12 justify-content-center">
+                    <p style="text-align: justify;">Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum. Lorem
+                        Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software. </p>
+                </div>
+                <div class="col-lg-5 col-12 mt-4">
+                    @*<canvas id="myChart" style="width:100%;max-width:600px"></canvas>*@
+                    <img src="./images/barcharpic.png" />
+                </div>
+            </div>
+        </div>
+
+
+        <br><br><br><br><br><br><br><br><br>
+        <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="text-center mb-lg-2 mb-1">Detection System</h2>
+            <div class="ms-2" style="border: 1px solid green; height: 0.2rem; width: 10rem; background-color: green;" ></div>
+        </div>
+    </div>
+        <br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-12">
+                    <img class="img-fluid mt-4" src="./images/banners/3.gif"
+                        alt="">
+                </div>
+                <div class="col-lg-7 col-12">
+                    <p style="text-align: justify;" class="">Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum. Lorem
+                        Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software. </p>
+                </div>
+            </div>
+        </div>
+
+        @*<button onclick="GetContact()">Show Record</button>*@
+
+    <h2>Show Contact Us Record</h2>
+    @if (contactus == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Subject</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var su in contactus)
+                {
+                    <tr>
+                        <td>@su.Id</td>
+                        <td>@su.name</td>
+                        <td>@su.email</td>
+                        <td>@su.subject</td>
+                        <td>@su.message</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <div>
+   <h2>For Add Contact Us Info</h2>
+    <a href="/contactus">
+        <button type="button" class="btn btn-primary">Insert</button>
+    </a>
+    </div>
+
+    <br />
+    <br />
+    <div>
+    <h2>Deletion</h2>
+    @message
+        <br />
+    <label for="id">Enter Contact ID:</label>
+    <input class="form-control" @bind-value="@contactId" />
+    <button type="button" class="btn btn-danger mt-2" @onclick="DeleteContact">Delete</button>
+    </div>
+    <br />
+    <br />
+    <div>
+    <h2>For Updating Contact Us Info</h2>
+    <p>Click on the url and Enter "update/recordId". For example we are updating the record that have id=3. Than we will simply type "http://localhost:5271/update/4".</p>
+    </div>
+    <br><br><br><br><br>
+
+    </body>
+    </html>
+
+@code{
+    private WeatherForecast[]? contactus;
+    //public int updatedNumber;
+
+    protected override async Task OnInitializedAsync()
+    {
+        contactus = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast/GetContact");
+
+
+    }
+
+
+    private int contactId;
+    public string message;
+
+    private async Task DeleteContact()
+    {
+        var response = await Http.DeleteAsync($"WeatherForecast/{contactId}");
+        if (response.IsSuccessStatusCode)
+        {
+            message = "Successfully Deleted";
+        }
+        else
+        {
+            message = "Not Deleted";
+        }
+        }
+    
+
+
+}
